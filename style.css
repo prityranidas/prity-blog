@@ -1,0 +1,155 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+/* Heading-section...Nav-Bar */
+
+.nav-bar{
+    height: 80px;
+    width: auto;
+    background-color:black;
+    text-align: center;
+    align-items: center; 
+    justify-content: space-between;
+    color:aliceblue;
+    display: flex;
+    padding: 10PX;
+}
+/* Nav-logo */
+.nav-logo{
+    justify-content: space-between;
+    align-items: center;
+    text-align: center; 
+    display: flex;
+    gap: 10px;
+
+}
+.nav-logo img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-left:20px ;
+}
+.logo-name{
+    font-size: 35px;
+}
+.logo-name:hover{
+    color:black;
+    background-color: aliceblue;
+
+}
+
+
+/* Nav-link */
+
+.nav-link{
+    font-size: 20px; 
+}
+.nav-link a{
+  padding: 10px;
+  color: aliceblue;
+  margin-right: 10px;
+  text-decoration: none;
+}
+.nav-link a:hover {
+    color:black;
+    background-color: aliceblue;
+}
+
+/* Blog-section */
+
+.blog-name{
+    font-size: 25px;
+    background-color: black;
+    height:60px ;
+    width: 200px;
+    color: aliceblue;
+    text-align: center;
+    align-items: center;
+    border-radius: 0px 20px 20px 0px;
+
+}
+.blog-box{
+    height: 500px;
+    width: 1300px;
+    /* border: 1px solid black; */
+    margin-left: 30px;
+    /* margin-top: 30px; */
+    display: flex;
+    gap: 20px;
+    text-align: center;
+    align-items: center;
+    
+}
+.box{
+    height: 380px;
+    width:280px ;
+    /* border: 1px solid red; */
+    margin-left: 22px;
+
+}
+.box img{
+    height: 75%;
+    width: 100%;
+    
+}
+
+/* Projects */
+
+.project-name{
+    font-size: 25px;
+    background-color: black;
+    height:60px ;
+    width: 200px;
+    color: aliceblue;
+    text-align: center;
+    align-items: center;
+    border-radius: 20px 0px 0px 20px;
+    margin-left: 1150px;
+
+}
+.project-box{
+    height: 500px;
+    width: 1300px;
+    /* border: 1px solid black; */
+    margin-left: 30px;
+    /* margin-top: 30px; */
+    display: flex;
+    gap: 20px;
+    text-align: center;
+    align-items: center;
+    
+}
+.box2{
+    height: 380px;
+    width:280px ;
+     border: 1px solid black;
+    margin-left: 22px;
+
+}
+.box2 img{
+    height: 100%;
+    width: 100%;
+    
+}
+
+
+
+/* footer  */
+
+.footer{
+    background-color: black;
+    height: 300px;
+    width: auto;
+    font-size: 15px;
+    color:aliceblue;
+   
+}
+.info{
+    margin-top: 20px;
+   
+}
+
+
+
+
